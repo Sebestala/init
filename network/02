@@ -1,1 +1,1 @@
-ifconfig | grep Bcast | cut -d   -f14-15
+ifconfig | grep broadcast | cut -d " " -f5-

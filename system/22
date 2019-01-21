@@ -1,1 +1,1 @@
-adduser -c login -p password
+sudo adduser login
