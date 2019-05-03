@@ -1,1 +1,1 @@
-dig slash16.org | grep SERVER | cut -d "(" -f2 | cut -d ")" -f-1
+ping -c 1 www.slash16.org | grep from | awk -F " "  '{print $4}' | awk -F ":" '{print $1}'

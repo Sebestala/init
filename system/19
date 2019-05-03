@@ -1,0 +1,33 @@
+#commande ls /etc/rc*
+
+
+/etc/rc0.d:
+K01fail2ban  K01hwclock.sh  K01networking  K01portsentry  K01rsyslog
+
+/etc/rc1.d:
+K01fail2ban  K01portsentry  K01rsyslog
+
+/etc/rc2.d:
+S01console-setup.sh  S01dbus      S01portsentry  S01ssh
+S01cron              S01fail2ban  S01rsyslog
+
+/etc/rc3.d:
+S01console-setup.sh  S01dbus      S01portsentry  S01ssh
+S01cron              S01fail2ban  S01rsyslog
+
+/etc/rc4.d:
+S01console-setup.sh  S01dbus      S01portsentry  S01ssh
+S01cron              S01fail2ban  S01rsyslog
+
+/etc/rc5.d:
+S01console-setup.sh  S01dbus      S01portsentry  S01ssh
+S01cron              S01fail2ban  S01rsyslog
+
+/etc/rc6.d:
+K01fail2ban  K01hwclock.sh  K01networking  K01portsentry  K01rsyslog
+
+/etc/rcS.d:
+S01hwclock.sh  S01keyboard-setup.sh  S01kmod  S01networking  S01procps  S01udev
+
+
+Ce sont des daemons, le chiffre correspond a un runlevel, niveau d'execution

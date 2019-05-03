@@ -1,0 +1,2 @@
+En mode graphique il suffit de renseigner son login et son ;ot de passe dans les cases correspondantes, en mode ssh cest avec l commande :
+ssh login@ip 
